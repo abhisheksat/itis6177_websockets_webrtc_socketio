@@ -27,6 +27,6 @@ io.on('connection', function(socket) {
     });
 });
 
-http.listen(7000, function() {
-  console.log('listening on *:7000');
+http.listen(3000, function() {
+  console.log('listening on *:3000');
 });
